@@ -1,0 +1,25 @@
+# wyniki działania programu — powstają na nowo przy każdym eksporcie
+siatka_*.asc
+siatka_pokrycie.csv
+geometria.csv
+punkty.geojson
+mapa_pokrycia.png
+pokrycie_*.asc
+README_qgis.txt
+
+# dane pomiarowe i rysunki robocze
+*.xlsx
+*.pdf
+*.png
+!screenshot.png
+srednia_ciecziwa_obliczenia.csv
+
+# osobne narzędzie, nie część tej aplikacji
+Dekodowanie/
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
